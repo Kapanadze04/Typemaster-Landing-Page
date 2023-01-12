@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Barlow', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*****************************************RESET CSS******************************/
+
+h1, h2, h3 { font-weight: 900; }
+
+h4 { font-weight: 700; }
+
+p { font-weight: 500; }
+
+.breakpoint-size {
+    width: 375px;
+    background: rgb(236, 182, 143);
+}
+
+/*************************************************HEADER*******************************************/
+.header {
+    display: flex;
+    align-items: center;
+    margin-top: 23px;
+}
+
+.logo > img { margin-left: 24px; }
+
+.pre-order_lightcontainer {
+    width: 150px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #e8eff2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 136.5px;
+}
+
+.pre-order_lightcontainer > h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #162542;
+}
+
+
+
+/*******************************************************MAIN TOP****************************************************/
+
