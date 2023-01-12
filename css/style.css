@@ -271,3 +271,178 @@ p { font-weight: 500; }
     color: #7b8bad;
     font-weight: 500;
 }
+
+
+
+
+
+
+/********************************************************TABLET SIZE****************************************************/
+
+@media only screen and (max-width: 767px) {
+    .picture1_tablet { display: none; }
+    .picture2_tablet { display: none; }
+    .picture3_tablet { display: none; }
+}
+
+@media only screen and (min-width: 768px) {
+
+    /******************RESET CSS****************/
+
+.breakpoint-size { width: 768px; }
+
+
+
+
+    /**********************HEADER**************/
+
+.header { margin-top: 40px; }
+
+.logo > img { margin-left: 39px; }
+
+.pre-order_lightcontainer {
+    width: 175px;
+    height: 58px;
+
+    margin-left: 474px;
+}
+
+    /*********************MAIN TOP*************/
+
+.main-top {
+    margin-top: 62px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.texts > h1 {
+    width: 339px;
+    margin-left: 39px;
+    margin-right: 0px;
+}
+
+.texts > p {
+    width: 339px;
+    margin-left: 39px;
+    margin-right: 0px;
+    margin-top: 34px;
+}
+
+.pre-order_darkcontainer {
+    width: 175px;
+    height: 58px;
+    margin-left: 39px;
+}
+
+.release > h4 { margin-left: 37px; }
+
+.main-top_containers {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.picture1_mobile { display: none; }
+
+.picture1_tablet {
+    width: 478px;
+    height: 425px;
+    border-radius: 20px;
+    margin-left: 69px;
+}
+
+
+
+
+    /******************MAIN-BOTTOM**************/
+
+.main-bottom { margin-top: 40px; }
+
+.image2 {
+    width: 214px;
+    height: 320px;
+    border-radius: 20px;
+    margin-left: 39px;
+}
+
+.picture2_mobile,
+.picture3_mobile { 
+    display: none; 
+}
+
+.picture2_tablet {
+    width: 214px;
+    height: 320px;
+    margin-left: 0px;
+    border-radius: 20px;
+    
+    opacity: 0.3;
+}
+
+.picture3_tablet {
+    width: 445px;
+    height: 320px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+.main-bottom_texts {
+    margin-top: 72px;
+    display: flex;
+    align-items: center;
+}
+
+.main-bottom_texts > h2 {
+    margin-left: 39px;
+    margin-right: 0px;
+    text-align: left;
+}
+
+.main-bottom_texts > p {
+    width: 398px;
+    height: 78px;
+    margin-left: 36px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+
+
+    /**********************ASIDE*******************/
+
+.aside {
+    margin-top: 142px;
+    padding-left: 39px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.box { margin-bottom: 72px; }
+
+.aside-icon { margin-left: 0px; }
+
+.box > h3 {
+    width: 339px;
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 40px;
+}
+
+.box > p {
+    width: 281px;
+    text-align: left;
+    margin-left: 0px;
+}
+
+
+
+
+
+/*************************************    TABLET FOOTER == MOBILE FOOTER     *****************************************/
+
+
+
+
+}
